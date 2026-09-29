@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tanishq Pundir — UI/UX and Product Designer portfolio." />
+  <title>Tanishq Pundir — UI/UX & Product Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="drawers.css" />
+</head>
+<body>
+  <div class="cursor-glow"></div>
+  <nav class="nav">
+    <button class="brand drawer-trigger" type="button" aria-controls="navigation-drawer" aria-expanded="false">TP<span>.</span></button>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+    </div>
+    <button class="nav-cta drawer-trigger" type="button" aria-controls="contact-drawer" aria-expanded="false">Contact me <span>↗</span></button>
+  </nav>
+
+  <div class="drawer-backdrop" hidden></div>
+  <aside class="drawer drawer-left" id="navigation-drawer" role="dialog" aria-modal="true" aria-labelledby="navigation-title" aria-hidden="true" inert>
+    <button class="drawer-close" type="button" aria-label="Close navigation">×</button>
+    <span class="drawer-kicker">UI/UX &amp; Product Designer</span>
+    <h2 id="navigation-title">Tanishq Pundir</h2>
+    <nav class="drawer-links" aria-label="Portfolio sections">
+      <a href="#about">About me <span>01</span></a>
+      <a href="#work">Work <span>02</span></a>
+      <a href="#skills">Skills <span>03</span></a>
+    </nav>
+  </aside>
+  <aside class="drawer drawer-right" id="contact-drawer" role="dialog" aria-modal="true" aria-labelledby="contact-title" aria-hidden="true" inert>
+    <button class="drawer-close" type="button" aria-label="Close contact panel">×</button>
+    <span class="drawer-kicker">CONTACT</span>
+    <h2 id="contact-title">Contact me</h2>
+    <p class="drawer-intro">Thank you for taking the time to visit. I’d be glad to hear from you and learn about what you’re working on.</p>
+    <p class="drawer-email-label">You can reach me at</p>
+    <a class="drawer-email" href="mailto:tanishqpundir2006@gmail.com">tanishqpundir2006@gmail.com <span>↗</span></a>
+  </aside>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="dot"></span> Available for UI/UX & Product Design opportunities</div>
+        <h1>Designing digital<br><em>experiences</em> people<br>understand.</h1>
+        <p class="hero-text">I'm Tanishq Pundir, a UI/UX and Product Designer focused on turning complex product ideas into clear, intuitive and visually refined experiences across mobile and web.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#work">Explore my work <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="art-card card-back"></div>
+        <div class="art-card card-main">
+          <div class="mini-top"><span>PRODUCT</span><span>01 / 03</span></div>
+          <div class="mini-lines"><i></i><i></i><i></i></div>
+          <div class="mini-ui">
+            <div class="mini-avatar"></div>
+            <div><b>Thoughtful UI</b><small>Clear by design</small></div>
+          </div>
+          <div class="mini-grid"><span></span><span></span><span></span><span></span></div>
+        </div>
+        <div class="floating-tag tag-a">UI / UX</div>
+        <div class="floating-tag tag-b">Product thinking</div>
+      </div>
+    </section>
+
+    <section class="marquee"><div>USER FLOWS&nbsp;&nbsp; • &nbsp;&nbsp;WIREFRAMES&nbsp;&nbsp; • &nbsp;&nbsp;PROTOTYPES&nbsp;&nbsp; • &nbsp;&nbsp;DESIGN SYSTEMS&nbsp;&nbsp; • &nbsp;&nbsp;MOTION&nbsp;&nbsp; • &nbsp;&nbsp;FRONTEND&nbsp;&nbsp; • &nbsp;&nbsp;</div></section>
+
+    <section id="work" class="work section-pad">
+      <div class="section-heading reveal">
+        <div><span class="section-index">01</span><h2>Selected work</h2></div>
+        <p>Three projects exploring product flows, visual systems and responsive digital experiences.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-visual bolt-visual">
+            <div class="phone phone-a"><div class="phone-notch"></div><div class="screen-label">Good evening</div><div class="map"><span class="route"></span><b class="pin p1"></b><b class="pin p2"></b></div><div class="ride-sheet"><span></span><strong>Choose a ride</strong><small>Comfort • 4 min away</small><div class="ride-row"></div></div></div>
+            <div class="visual-chip">01 — MOBILE</div>
+          </div>
+          <div class="project-info"><div class="project-meta"><span>UI/UX · PRODUCT DESIGN</span><a href="https://github.com/tanishq-pundir/Bolt" target="_blank" rel="noreferrer" aria-label="Bolt GitHub">GitHub ↗</a></div><h3>Bolt</h3><p>Ride-booking experience covering location selection, ride discovery, booking, navigation and ride-status interactions.</p><div class="tags"><span>User flows</span><span>Mobile UI</span><span>Prototyping</span></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual food-visual">
+            <div class="food-panel"><div class="food-nav"><b>discover</b><span>⌕</span></div><div class="food-hero"><small>DELIVERED TO YOU</small><strong>What are you<br>craving today?</strong></div><div class="food-cats"><i>Pizza</i><i>Sushi</i><i>Burgers</i></div><div class="food-cards"><div></div><div></div></div></div>
+            <div class="visual-chip">02 — MOBILE</div>
+          </div>
+          <div class="project-info"><div class="project-meta"><span>UI/UX · PRODUCT DESIGN</span><a href="https://github.com/tanishq-pundir/Food-Dilevery" target="_blank" rel="noreferrer" aria-label="Food Delivery GitHub">GitHub ↗</a></div><h3>Food Delivery</h3><p>Mobile ordering experience spanning restaurant discovery, menus, customization, cart, checkout and order tracking.</p><div class="tags"><span>Information architecture</span><span>UI system</span><span>Prototype</span></div></div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-visual lokal-visual">
+            <div class="browser"><div class="browser-bar"><span></span><span></span><span></span><label>lokal — products</label></div><div class="lokal-body"><div class="lokal-copy"><small>ONE ECOSYSTEM</small><strong>Everything Lokal,<br>one place.</strong><p>Explore all 8 products directly from the homepage.</p></div><div class="product-orbit"><i>01</i><i>02</i><i>03</i><i>04</i><i>05</i><i>06</i><i>07</i><i>08</i></div></div></div>
+            <div class="visual-chip">03 — WEB</div>
+          </div>
+          <div class="project-info"><div class="project-meta"><span>WEB · FRONTEND · UX</span><a href="https://github.com/tanishq-pundir/Lokal" target="_blank" rel="noreferrer" aria-label="Lokal GitHub">GitHub ↗</a></div><h3>Lokal</h3><p>Redesigned the web experience and connected all 8 Lokal products directly from the homepage for clearer product discovery.</p><div class="tags"><span>Responsive design</span><span>Frontend</span><span>Product discovery</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about section-pad">
+      <div class="section-heading reveal"><div><span class="section-index">02</span><h2>About me</h2></div></div>
+      <div class="about-grid">
+        <div class="about-lead reveal"><span class="quote-mark">“</span><h3>I care about the details that make an interface feel <em>obvious.</em></h3></div>
+        <div class="about-copy reveal"><p>I'm a design-focused engineering student at <strong>Indian Institute of Information Technology, Bhagalpur</strong>, combining product design thinking with frontend development.</p><p>My approach is user-first: understand the flow, reduce friction, build a strong visual hierarchy, then translate the system into polished interfaces. I enjoy fast iteration, feedback and collaborating with designers, PMs and developers.</p></div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-pad">
+      <div class="section-heading reveal"><div><span class="section-index">03</span><h2>Capabilities</h2></div></div>
+      <div class="skill-grid">
+        <div class="skill-block reveal"><span>01</span><h3>UX & Product</h3><p>User flows · Wireframing · Prototyping · Mobile & Web Design · Interaction Design · User-first thinking</p></div>
+        <div class="skill-block reveal"><span>02</span><h3>Visual & Systems</h3><p>Visual design · Typography · Spacing · Hierarchy · Design systems · Components · UI consistency</p></div>
+        <div class="skill-block reveal"><span>03</span><h3>Tools & Motion</h3><p>Figma · Rive · After Effects · Motion design · Micro-interactions · UI animation</p></div>
+        <div class="skill-block reveal"><span>04</span><h3>Frontend</h3><p>React.js · HTML · CSS · Tailwind CSS · JavaScript · TypeScript · Responsive implementation</p></div>
+      </div>
+    </section>
+
+    <section class="education section-pad">
+      <div class="education-card reveal"><span class="section-index">EDUCATION</span><div><h3>Indian Institute of Information Technology, Bhagalpur</h3><p>B.Tech in Electronics and Communication Engineering · 2023 — 2027</p></div></div>
+    </section>
+
+    <section class="contact section-pad">
+      <div class="contact-card reveal"><div><span class="section-index">CONTACT ME</span><h2>Have a product<br>worth designing?</h2></div><a href="mailto:tanishqpundir2006@gmail.com">tanishqpundir2006@gmail.com <span>↗</span></a></div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Tanishq Pundir</span><div><a href="https://github.com/tanishq-pundir" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/tanishq-pundir-a04020297" target="_blank" rel="noreferrer">LinkedIn</a><a href="mailto:tanishqpundir2006@gmail.com">Email</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
